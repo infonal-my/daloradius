@@ -145,7 +145,7 @@
                                 'subject' => $id,
                                 'actions' => array(),
                             );
-            $tooltip['actions'][] = array( 'href' => sprintf('mng-rad-groupreply-edit.php?item=groupreply-%s', $id, ), 'label' => t('button','EditGroupReply'), );
+            $tooltip['actions'][] = array( 'href' => sprintf('mng-rad-groupreply-edit.php?item=groupreply-%s', $id), 'label' => t('button','EditGroupReply'), );
 
             // create tooltip
             $tooltip = get_tooltip_list_str($tooltip);

@@ -155,8 +155,8 @@
                                 'subject' => $nasname,
                                 'actions' => array(),
                             );
-            $tooltip['actions'][] = array( 'href' => sprintf('mng-rad-nas-edit.php?nasname=%s', urlencode($nasname), ), 'label' => t('button','EditNAS'), );
-            $tooltip['actions'][] = array( 'href' => sprintf('mng-rad-nas-del.php?nashost=%s', urlencode($nasname), ), 'label' => t('button','RemoveNAS'), );
+            $tooltip['actions'][] = array( 'href' => sprintf('mng-rad-nas-edit.php?nasname=%s', urlencode($nasname)), 'label' => t('button','EditNAS'), );
+            $tooltip['actions'][] = array( 'href' => sprintf('mng-rad-nas-del.php?nashost=%s', urlencode($nasname)), 'label' => t('button','RemoveNAS'), );
             
             // create tooltip
             $tooltip = get_tooltip_list_str($tooltip);

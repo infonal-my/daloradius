@@ -181,7 +181,7 @@
                                 'ajax_id' => $ajax_id,
                                 'actions' => array(),
                             );
-            $tooltip['actions'][] = array( 'href' => sprintf('mng-edit.php?username=%s', urlencode($username), ), 'label' => t('Tooltip','UserEdit'), );
+            $tooltip['actions'][] = array( 'href' => sprintf('mng-edit.php?username=%s', urlencode($username)), 'label' => t('Tooltip','UserEdit'), );
         
             $tooltip = get_tooltip_list_str($tooltip);
         

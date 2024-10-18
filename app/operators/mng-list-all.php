@@ -308,11 +308,11 @@
                                 'actions' => array(),
                             );
             $tooltip['actions'][] = array(
-                                            'href' => sprintf('mng-edit.php?username=%s', urlencode($username), ),
+                                            'href' => sprintf('mng-edit.php?username=%s', urlencode($username)),
                                             'label' => t('Tooltip','UserEdit'),
                                          );
             $tooltip['actions'][] = array(
-                                            'href' => sprintf('acct-username.php?username=%s', urlencode($username), ),
+                                            'href' => sprintf('acct-username.php?username=%s', urlencode($username)),
                                             'label' => t('all','Accounting'),
                                          );
 

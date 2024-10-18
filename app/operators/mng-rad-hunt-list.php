@@ -147,8 +147,8 @@
                                 'subject' => $groupname,
                                 'actions' => array(),
                             );
-            $tooltip['actions'][] = array( 'href' => sprintf('mng-rad-hunt-edit.php?item=%s', $item_id, ), 'label' => t('Tooltip','EditHG'), );
-            $tooltip['actions'][] = array( 'href' => sprintf('mng-rad-hunt-del.php?item[]=%s', $item_id, ), 'label' => t('Tooltip','RemoveHG'), );
+            $tooltip['actions'][] = array( 'href' => sprintf('mng-rad-hunt-edit.php?item=%s', $item_id), 'label' => t('Tooltip','EditHG'), );
+            $tooltip['actions'][] = array( 'href' => sprintf('mng-rad-hunt-del.php?item[]=%s', $item_id), 'label' => t('Tooltip','RemoveHG'), );
 
             // create tooltip
             $tooltip = get_tooltip_list_str($tooltip);

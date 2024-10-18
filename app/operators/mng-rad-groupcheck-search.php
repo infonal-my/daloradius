@@ -160,7 +160,7 @@
                                 'subject' => $id,
                                 'actions' => array(),
                             );
-            $tooltip['actions'][] = array( 'href' => sprintf('mng-rad-groupcheck-edit.php?item=groupcheck-%s', $id, ), 'label' => t('button','EditGroupCheck'), );
+            $tooltip['actions'][] = array( 'href' => sprintf('mng-rad-groupcheck-edit.php?item=groupcheck-%s', $id), 'label' => t('button','EditGroupCheck'), );
 
             // create tooltip
             $tooltip = get_tooltip_list_str($tooltip);

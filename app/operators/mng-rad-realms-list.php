@@ -147,7 +147,7 @@
                                 'subject' => $realmname,
                                 'actions' => array(),
                             );
-            $tooltip['actions'][] = array( 'href' => sprintf('mng-rad-realms-edit.php?realmname=%s', urlencode($realmname), ), 'label' => t('Tooltip','EditRealm'), );
+            $tooltip['actions'][] = array( 'href' => sprintf('mng-rad-realms-edit.php?realmname=%s', urlencode($realmname)), 'label' => t('Tooltip','EditRealm'), );
             
             // create tooltip
             $tooltip = get_tooltip_list_str($tooltip);

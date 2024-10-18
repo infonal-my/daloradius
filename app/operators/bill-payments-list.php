@@ -191,14 +191,14 @@
                                 'subject' => sprintf("#%d", $payment_id),
                                 'actions' => array(),
                              );
-            $tooltip1['actions'][] = array( 'href' => sprintf('bill-payments-edit.php?payment_id=%d', $payment_id, ), 'label' => t('Tooltip','EditPayment'), );
-            $tooltip1['actions'][] = array( 'href' => sprintf('bill-payments-del.php?payment_id=%d',$payment_id, ), 'label' => t('Tooltip','RemovePayment'), );
+            $tooltip1['actions'][] = array( 'href' => sprintf('bill-payments-edit.php?payment_id=%d', $payment_id), 'label' => t('Tooltip','EditPayment'), );
+            $tooltip1['actions'][] = array( 'href' => sprintf('bill-payments-del.php?payment_id=%d',$payment_id), 'label' => t('Tooltip','RemovePayment'), );
             
             $tooltip2 = array(
                                 'subject' => sprintf("#%d", intval($invoice_id)),
                                 'actions' => array(),
                              );
-            $tooltip2['actions'][] = array( 'href' => sprintf('bill-invoice-edit.php?invoice_id=%d', $invoice_id, ), 'label' => t('Tooltip','InvoiceEdit'), );
+            $tooltip2['actions'][] = array( 'href' => sprintf('bill-invoice-edit.php?invoice_id=%d', $invoice_id), 'label' => t('Tooltip','InvoiceEdit'), );
         
             // create tooltip
             $tooltip1 = get_tooltip_list_str($tooltip1);

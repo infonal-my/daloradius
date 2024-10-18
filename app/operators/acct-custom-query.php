@@ -227,11 +227,11 @@
                                         'actions' => [],
                                      ];
 
-                            $value['actions'][] = [ 'href' => sprintf('acct-username.php?username=%s', urlencode($row[$field]), ),
+                            $value['actions'][] = [ 'href' => sprintf('acct-username.php?username=%s', urlencode($row[$field])),
                                                     'label' => t('button','UserAccounting'), ];
 
                             if (user_exists($dbSocket, $row[$field], 'CONFIG_DB_TBL_RADCHECK')) {
-                                $value['actions'][] = [ 'href' => sprintf('mng-edit.php?username=%s', urlencode($row[$field]), ),
+                                $value['actions'][] = [ 'href' => sprintf('mng-edit.php?username=%s', urlencode($row[$field])),
                                                         'label' => t('Tooltip','UserEdit'), ];
                             }
 

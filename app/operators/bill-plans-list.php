@@ -145,8 +145,8 @@
                                 'subject' => $planName,
                                 'actions' => array(),
                             );
-            $tooltip['actions'][] = array( 'href' => sprintf('bill-plans-edit.php?planName=%s', urlencode($planName), ), 'label' => t('button','EditPlan'), );
-            $tooltip['actions'][] = array( 'href' => sprintf('bill-plans-del.php?planName=%s', urlencode($planName), ), 'label' => t('button','RemovePlan'), );
+            $tooltip['actions'][] = array( 'href' => sprintf('bill-plans-edit.php?planName=%s', urlencode($planName)), 'label' => t('button','EditPlan'), );
+            $tooltip['actions'][] = array( 'href' => sprintf('bill-plans-del.php?planName=%s', urlencode($planName)), 'label' => t('button','RemovePlan'), );
 
             // create tooltip
             $tooltip = get_tooltip_list_str($tooltip);
