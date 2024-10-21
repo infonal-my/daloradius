@@ -142,8 +142,8 @@
                                 'subject' => $rateName,
                                 'actions' => array(),
                             );
-            $tooltip['actions'][] = array( 'href' => sprintf('mng-rad-rates-edit.php?ratename=%s', urlencode($rateName)), 'label' => t('button','EditRate'), );
-            $tooltip['actions'][] = array( 'href' => sprintf('mng-rad-rates-del.php?ratename=%s', urlencode($rateName)), 'label' => t('button','RemoveRate'), );
+            $tooltip['actions'][] = array( 'href' => sprintf('mng-rad-rates-edit.php?ratename=%s', urlencode($rateName), ), 'label' => t('button','EditRate'), );
+            $tooltip['actions'][] = array( 'href' => sprintf('mng-rad-rates-del.php?ratename=%s', urlencode($rateName), ), 'label' => t('button','RemoveRate'), );
             
             // create tooltip
             $tooltip = get_tooltip_list_str($tooltip);

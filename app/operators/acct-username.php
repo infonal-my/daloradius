@@ -184,7 +184,7 @@
                                     'ajax_id' => $ajax_id,
                                     'actions' => array(),
                                 ];
-                    $tooltip1['actions'][] = [ 'href' => sprintf('mng-hs-edit.php?name=%s', urlencode($hotspot)),
+                    $tooltip1['actions'][] = [ 'href' => sprintf('mng-hs-edit.php?name=%s', urlencode($hotspot), ),
                                                'label' => t('Tooltip','HotspotEdit'), ];
                     $tooltip1['actions'][] = [ 'href' => 'acct-hotspot-compare.php',
                                                'label' => t('all','Compare'), ];
@@ -205,7 +205,7 @@
                                     'ajax_id' => $ajax_id,
                                     'actions' => array(),
                                 ];
-                    $tooltip2['actions'][] = [ 'href' => sprintf('mng-edit.php?username=%s', urlencode($username)),
+                    $tooltip2['actions'][] = [ 'href' => sprintf('mng-edit.php?username=%s', urlencode($username), ),
                                                'label' => t('Tooltip','UserEdit'), ];
                     
                     
@@ -219,7 +219,7 @@
                         'subject' => $framedIPAddress,
                         'actions' => array(),
                     ];
-                    $tooltip3['actions'][] = [  'href' => sprintf('acct-ipaddress.php?ipaddress=%s', urlencode($framedIPAddress)),
+                    $tooltip3['actions'][] = [  'href' => sprintf('acct-ipaddress.php?ipaddress=%s', urlencode($framedIPAddress), ),
                                                 'label' => t('button','IPAccounting'), ];
                     
                     $tooltip3 = get_tooltip_list_str($tooltip3);
@@ -232,7 +232,7 @@
                         'subject' => $nasIPAddress,
                         'actions' => array(),
                     ];
-                    $tooltip4['actions'][] = [  'href' => sprintf('acct-nasipaddress.php?ipaddress=%s', urlencode($nasIPAddress)),
+                    $tooltip4['actions'][] = [  'href' => sprintf('acct-nasipaddress.php?ipaddress=%s', urlencode($nasIPAddress), ),
                                                 'label' => t('button','NASIPAccounting'), ];
                     
                     $tooltip4 = get_tooltip_list_str($tooltip4);

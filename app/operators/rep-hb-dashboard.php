@@ -153,7 +153,7 @@
                                 'subject' => $row['hotspotname'],
                                 'actions' => array(),
                             );
-            $tooltip['actions'][] = array( 'href' => sprintf('mng-hs-edit.php?name=%s', urlencode($row['hotspotname'])),
+            $tooltip['actions'][] = array( 'href' => sprintf('mng-hs-edit.php?name=%s', urlencode($row['hotspotname']), ),
                                            'label' => t('Tooltip','HotspotEdit'), );
         
             $tooltip['content'] = sprintf($format, t('all','NASMAC'), $row['mac']);

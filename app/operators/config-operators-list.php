@@ -156,7 +156,7 @@
                                 'subject' => $username,
                                 'actions' => array(),
                             );
-            $tooltip['actions'][] = array( 'href' => sprintf('config-operators-edit.php?operator_username=%s', urlencode($username)), 'label' => t('Tooltip','UserEdit'), );
+            $tooltip['actions'][] = array( 'href' => sprintf('config-operators-edit.php?operator_username=%s', urlencode($username), ), 'label' => t('Tooltip','UserEdit'), );
 
             // create tooltip
             $tooltip = get_tooltip_list_str($tooltip);

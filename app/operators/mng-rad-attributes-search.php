@@ -168,7 +168,7 @@
                                 'ajax_id' => $ajax_id,
                                 'actions' => array(),
                             );
-            $tooltip['actions'][] = array( 'href' => sprintf('mng-rad-attributes-edit.php?vendor=%s&attribute=%s', urlencode($this_vendor), urlencode($this_attribute)), 'label' => t('Tooltip','AttributeEdit'), );
+            $tooltip['actions'][] = array( 'href' => sprintf('mng-rad-attributes-edit.php?vendor=%s&attribute=%s', urlencode($this_vendor), urlencode($this_attribute), ), 'label' => t('Tooltip','AttributeEdit'), );
             
             // create tooltip
             $tooltip = get_tooltip_list_str($tooltip);

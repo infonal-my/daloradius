@@ -238,7 +238,7 @@
                                 'ajax_id' => $ajax_id,
                                 'actions' => array(),
                             );
-            $tooltip['actions'][] = array( 'href' => sprintf('bill-pos-edit.php?username=%s', urlencode($this_username)), 'label' => t('Tooltip','UserEdit'), );
+            $tooltip['actions'][] = array( 'href' => sprintf('bill-pos-edit.php?username=%s', urlencode($this_username), ), 'label' => t('Tooltip','UserEdit'), );
             
             $tooltip = get_tooltip_list_str($tooltip);
             

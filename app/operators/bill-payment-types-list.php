@@ -142,8 +142,8 @@
                                 'subject' => $id,
                                 'actions' => array(),
                             );
-            $tooltip['actions'][] = array( 'href' => sprintf('bill-payment-types-edit.php?paymentname=%s', urlencode($paymentName)), 'label' => t('Tooltip','EditPayType'), );
-            $tooltip['actions'][] = array( 'href' => sprintf('bill-payment-types-del.php?paymentname=%s', urlencode($paymentName)), 'label' => t('Tooltip','RemovePayType'), );
+            $tooltip['actions'][] = array( 'href' => sprintf('bill-payment-types-edit.php?paymentname=%s', urlencode($paymentName), ), 'label' => t('Tooltip','EditPayType'), );
+            $tooltip['actions'][] = array( 'href' => sprintf('bill-payment-types-del.php?paymentname=%s', urlencode($paymentName), ), 'label' => t('Tooltip','RemovePayType'), );
             
             // create tooltip
             $tooltip = get_tooltip_list_str($tooltip);

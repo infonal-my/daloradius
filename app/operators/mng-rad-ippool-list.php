@@ -153,8 +153,8 @@
                                 'subject' => $pool_name,
                                 'actions' => array(),
                             );
-            $tooltip['actions'][] = array( 'href' => sprintf('mng-rad-ippool-edit.php?item=%s', $item_id), 'label' => t('Tooltip','EditIPAddress'), );
-            $tooltip['actions'][] = array( 'href' => sprintf('mng-rad-ippool-del.php?item[]=%s', $item_id), 'label' => t('Tooltip','RemoveIPAddress'), );
+            $tooltip['actions'][] = array( 'href' => sprintf('mng-rad-ippool-edit.php?item=%s', $item_id, ), 'label' => t('Tooltip','EditIPAddress'), );
+            $tooltip['actions'][] = array( 'href' => sprintf('mng-rad-ippool-del.php?item[]=%s', $item_id, ), 'label' => t('Tooltip','RemoveIPAddress'), );
             
             // create tooltip
             $tooltip = get_tooltip_list_str($tooltip);

@@ -157,8 +157,8 @@
                                 'subject' => $groupname,
                                 'actions' => array(),
                             );
-            $tooltip['actions'][] = array( 'href' => sprintf('mng-rad-profiles-edit.php?profile_name=%s', urlencode($groupname)), 'label' => t('button','EditProfile'), );
-            $tooltip['actions'][] = array( 'href' => sprintf('mng-rad-profiles-del.php?profile_name=%s', urlencode($groupname)), 'label' => t('button','RemoveProfile'), );
+            $tooltip['actions'][] = array( 'href' => sprintf('mng-rad-profiles-edit.php?profile_name=%s', urlencode($groupname), ), 'label' => t('button','EditProfile'), );
+            $tooltip['actions'][] = array( 'href' => sprintf('mng-rad-profiles-del.php?profile_name=%s', urlencode($groupname), ), 'label' => t('button','RemoveProfile'), );
         
             // create tooltip
             $tooltip = get_tooltip_list_str($tooltip);

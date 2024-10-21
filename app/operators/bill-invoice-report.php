@@ -231,14 +231,14 @@
                                 'subject' => sprintf("#%d", intval($id)),
                                 'actions' => array(),
                              );
-            $tooltip1['actions'][] = array( 'href' => sprintf('bill-invoice-edit.php?invoice_id=%d', $id), 'label' => t('Tooltip','InvoiceEdit'), );
+            $tooltip1['actions'][] = array( 'href' => sprintf('bill-invoice-edit.php?invoice_id=%d', $id, ), 'label' => t('Tooltip','InvoiceEdit'), );
             
             // define tooltip1
             $tooltip2 = array(
                                 'subject' => $username,
                                 'actions' => array(),
                              );
-            $tooltip2['actions'][] = array( 'href' => sprintf('bill-pos-edit.php?username=%s', $username), 'label' => t('Tooltip','UserEdit'), );
+            $tooltip2['actions'][] = array( 'href' => sprintf('bill-pos-edit.php?username=%s', $username, ), 'label' => t('Tooltip','UserEdit'), );
         
             // create balance
             $balance = $totalpayed - $totalbilled;

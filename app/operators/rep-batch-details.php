@@ -429,9 +429,9 @@
                                     'ajax_id' => $ajax_id,
                                     'actions' => array(),
                                 );
-                $tooltip['actions'][] = array( 'href' => sprintf('mng-edit.php?username=%s', urlencode($username)), 'label' => t('Tooltip','UserEdit'), );
+                $tooltip['actions'][] = array( 'href' => sprintf('mng-edit.php?username=%s', urlencode($username), ), 'label' => t('Tooltip','UserEdit'), );
                 if ($active !== '0') {
-                    $tooltip['actions'][] = array( 'href' => sprintf('acct-username.php?username=%s', urlencode($username)), 'label' => t('all','Accounting'), );
+                    $tooltip['actions'][] = array( 'href' => sprintf('acct-username.php?username=%s', urlencode($username), ), 'label' => t('all','Accounting'), );
                 }
                 
                 // create tooltip

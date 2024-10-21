@@ -152,7 +152,7 @@
                                 'subject' => $proxyname,
                                 'actions' => array(),
                             );
-            $tooltip['actions'][] = array( 'href' => sprintf('mng-rad-proxys-edit.php?item=%s', $item_id), 'label' => t('Tooltip','EditProxy'), );
+            $tooltip['actions'][] = array( 'href' => sprintf('mng-rad-proxys-edit.php?item=%s', $item_id, ), 'label' => t('Tooltip','EditProxy'), );
 
             // create tooltip
             $tooltip = get_tooltip_list_str($tooltip);
